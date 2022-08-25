@@ -1,0 +1,40 @@
+* {
+    background-color: rgb(190, 160, 114);
+    color: #fff;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style: none;    
+} 
+
+li {
+    display: inline;
+}
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    color: #fff;
+}
